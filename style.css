@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #e4ebf5;
+    font-family: 'FontLight', sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 83px;
+    border-bottom: 4px solid rgb(7, 10, 170);
+}
+
+.logo-pagina img{
+    width: 140px;
+    height: 80px;
+    position: relative;
+    top: 4px;
+    right: 7px;
+}
+
+.logo-paginaeuropa img{
+    width: 140px;
+    height: 80px;
+    position: relative;
+    top: 4px;
+    right: 7px;
+}
+
+.btn_menu {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_menu img{
+    text-decoration: none;
+    width: 7%;
+    height: 7%;
+    position: relative;
+    bottom: 78px;
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    background-color: #070aaa;
+    opacity: 0.85;
+    position: relative;
+    bottom: 64%;
+    z-index: 100;
+}
+
+ul.navigation {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+    /* si tiene tambien la clase show */
+    ul.navigation.show {
+        display: flex;
+    }
+
+ul.navigation li {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 20px;
+}
+
+ul.navigation li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+ul.navigation li:hover {
+    background-color: rgb(46, 122, 209);
+}
+
+.slogan{
+    width: 100%;
+    height: 50%;
+    border-radius: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vuelos{
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 145%;
+    position: relative;
+    left: 4%;
+    top: 40px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: #070aaa;
+}
+
+.continente{
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 195%;
+    position: relative;
+    left: 3%;
+    top: 20px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: #070aaa;
+}
+
+/*seccion sobre destinos de america en la pagina principal*/
+
+.contenedor-grid{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    margin: 0;
+    grid-row-gap: 5px;
+}
+
+img{
+    width: 96.5%;
+    height: 70%;
+    border-radius: 8px;
+    z-index: 100;
+}
+
+.destinos {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.contenedor-grid p{
+    background-color: #070aaa;
+    color: white;
+    height: 22%;
+    width: 96.8%;
+    position: relative;
+    bottom: 30px;
+    left: 1.5%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "georama", sans-serif;
+    font-style: normal;
+    font-size: 130%;
+}
+
+.contenedor-grid2 p{
+    background-color: #070aaa;
+    color: white;
+    height: 22%;
+    width: 96.8%;
+    position: relative;
+    bottom: 30px;
+    left: 1.5%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "georama", sans-serif;
+    font-style: normal;
+    font-size: 130%;
+}
+
+.ver-mas{
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 10%;
+    bottom: 10%;
+    left: 60%;
+}
+
+
+table{
+    position: relative;
+    top: 60px;
+    width: 80%;
+    height: 230px;
+    left: 10%;
+    border: 3px solid #070aaa;
+    font-size: 145%;
+}
+
+thead{
+    background-color: #070aaa;
+    color: white;
+}
+
+td, tr{
+    border-collapse: collapse;
+    border: 1px solid #070aaa;
+}
+
+.aumento{
+    display: flex;
+    justify-content: center;
+}
+
+tfoot{
+    color: #070aaa;
+}
+
+footer{
+    background-color: #070aaa;
+    color: white;
+    font-size: 70%;
+    width: 100%;
+    height: 125px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 33% 33% 33% ;
+    position: relative;
+    top: 80px;
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.email-footer{
+    font-size: 160%;
+    position: relative;
+    top: 30%;
+    border-top: 1px solid white;
+    padding: 2%;
+
+}
+
+.telefono-footer{
+    font-size: 160%;
+    position: relative;
+    bottom: 30%;
+}
+
+.derechos{
+    position: relative;
+    top: 8%;
+}
+
+
+@media screen and (min-width: 768px){
+
+    /* en desktop ocultamos siempre el boton del menu */
+    .btn_menu {
+    display: none;
+    }
+
+   /* cambiamos la direccion del flex */
+    ul.navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .logo-pagina img{
+        position: relative;
+        top: 15px;
+        left: 8px;
+        width: 170px;
+        height: 100px;
+        z-index: 1000;
+    }
+
+    .logo-paginaeuropa img{
+        position: relative;
+        top: 15px;
+        left: 8px;
+        width: 170px;
+        height: 100px;
+        z-index: 1000;
+    }
+
+    header{
+        position: relative;
+        height: 110px;
+    }
+
+    .menu{
+        width: 100%;
+        height: 100px;
+        position: relative;
+        bottom: 80px;
+        background-color: rgb(255, 255, 255);
+        opacity: 1;
+    }
+
+    ul.navigation li a{
+        color: #070aaa;
+        font-size: 25px;
+    }
+
+    .slogan{
+        width: 100%;
+        height: 700px;
+    }
+
+    ul.navigation li:hover {
+        background-color: rgb(116, 172, 236);
+        border-radius: 8px;
+    }
+
+    .contenedor-grid{
+        grid-template-columns: 25% 25% 25% 25%;
+        position: relative;
+        top: 30px;
+    }
+
+    .contenedor-grid p{
+        font-size: 170%;
+    }
+
+    img{
+        width: 112%;
+        height: 100%;
+    }
+
+    a .ver-mas{
+        top: 1px;
+        width: 40%;
+        left: 70%;
+    }
+
+    .contenedor-grid p{
+        height: 90px;
+        width: 112%;
+        right: 0%;
+        left: 0%;
+    }
+
+    .vuelos{
+        font-size: 300%;
+        width: 70%;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .continente{
+        font-size: 33px;
+    }
+
+    .slogan{
+        width: 100%;
+        height: 100%;
+    }
+
+    table{
+        font-size: 160%;
+    }
+}
+
